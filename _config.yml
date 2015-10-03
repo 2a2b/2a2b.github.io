@@ -1,6 +1,13 @@
+# Site settings
+title: 2a2b.github.io
+email: 2a2b@github.com
+#baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "http://2a2b.github.io" # the base hostname & protocol for your site
+github_username:  2a2b
 permalink: pretty
 markdown: rdiscount
 highlighter: pygments
+encoding: utf-8
 timezone: Asia/Taipei
 gems:
   - jekyll-redirect-from

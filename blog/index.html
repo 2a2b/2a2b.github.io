@@ -1,8 +1,25 @@
 ---
 layout: default
-title: "2a2b.github.io/blog"
+titile: Hello World!
 redirect_from: /
 ---
-<!DOCTYPE html><html lang="zh-Hant" class="han-init"><head><meta charset="UTF-8"><title>test</title><link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/Han/3.2.6/han.min.css"></head><body>
-				<p>旅行的<em>意義</em>是什麼？</p>
-				<script src="//cdnjs.cloudflare.com/ajax/libs/Han/3.2.6/han.min.js"></script></body></html>
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">訂閱<a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+
+</div>
