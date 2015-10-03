@@ -4,9 +4,10 @@ title:  "第一篇貼文"
 date:   2015-10-03 12:12:24
 categories: 碎碎念
 ---
-開始使用 [jekyll] 感覺很新鮮，有許多快速秘訣能提高生產率，還有與 [github] 的整合，讓學習的過程更為有趣。
+開始使用 [jekyll] 感覺很新鮮，有許多快速秘訣能提高生產率，還有與 [github] 的整合，讓學習的過程更為有趣，而在排版上也加入了[Han.css]，使得閱讀能更為舒適。
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help
 [github]:   https://github.com/
+[Han.css]:	https://github.com/ethantw/Han
